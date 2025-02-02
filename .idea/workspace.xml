@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03f0fc05-5fb0-495e-9efe-04835ca14be6" name="Changes" comment="#Feature: Dicionarios">
-      <change afterPath="$PROJECT_DIR$/Dicionarios/Tuplas.py" afterDir="false" />
+    <list default="true" id="03f0fc05-5fb0-495e-9efe-04835ca14be6" name="Changes" comment="#Feature: Tuplas">
+      <change afterPath="$PROJECT_DIR$/Manipulacao_Arquivos/PrimeiroArquivo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manipulacao_Arquivos/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +53,7 @@
     "Python.ManageUsers.executor": "Run",
     "Python.ModuloPrincipal.executor": "Run",
     "Python.MultiplasListas_e_Indice.executor": "Run",
+    "Python.PrimeiroArquivo.executor": "Run",
     "Python.Tuplas.executor": "Run",
     "Python.Variaveis_e_Listas.executor": "Run",
     "Python.decisao_for.executor": "Run",
@@ -66,7 +68,7 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.Tuplas">
+  <component name="RunManager" selected="Python.PrimeiroArquivo">
     <configuration name="Dicionario_Exemplo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Certificacao_Fiap" />
       <option name="ENV_FILES" value="" />
@@ -81,28 +83,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dicionarios/Dicionario_Exemplo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ListasDentro_de_Listas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Certificacao_Fiap" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cap3-Listas_Funcoes" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cap3-Listas_Funcoes/ListasDentro_de_Listas.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -155,6 +135,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="PrimeiroArquivo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Certificacao_Fiap" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Manipulacao_Arquivos" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Manipulacao_Arquivos/PrimeiroArquivo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Tuplas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Certificacao_Fiap" />
       <option name="ENV_FILES" value="" />
@@ -179,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.PrimeiroArquivo" />
         <item itemvalue="Python.Tuplas" />
         <item itemvalue="Python.ManageUsers" />
         <item itemvalue="Python.Dicionario_Exemplo" />
         <item itemvalue="Python.ModuloPrincipal" />
-        <item itemvalue="Python.ListasDentro_de_Listas" />
       </list>
     </recent_temporary>
   </component>
@@ -267,7 +269,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738514429706</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="#Feature: Tuplas">
+      <option name="closed" value="true" />
+      <created>1738517901990</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1738517901990</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -289,7 +299,8 @@
     <MESSAGE value="#Feature: Manipulacao de listas" />
     <MESSAGE value="#Feature: Funcoes" />
     <MESSAGE value="#Feature: Dicionarios" />
-    <option name="LAST_COMMIT_MESSAGE" value="#Feature: Dicionarios" />
+    <MESSAGE value="#Feature: Tuplas" />
+    <option name="LAST_COMMIT_MESSAGE" value="#Feature: Tuplas" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
