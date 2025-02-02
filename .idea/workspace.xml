@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03f0fc05-5fb0-495e-9efe-04835ca14be6" name="Changes" comment="#Feature: Manipulando a base de dados do iris">
-      <change afterPath="$PROJECT_DIR$/Localizacao_Python/Primeiros_passos.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Localizacao_Python/__init__.py" afterDir="false" />
+    <list default="true" id="03f0fc05-5fb0-495e-9efe-04835ca14be6" name="Changes" comment="#Feature: Integrando API do geocoding Nominatim">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Localizacao_Python/Primeiros_passos.py" beforeDir="false" afterPath="$PROJECT_DIR$/Localizacao_Python/Primeiros_passos.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +53,7 @@
     "Python.ModuloPrincipal.executor": "Run",
     "Python.MultiplasListas_e_Indice.executor": "Run",
     "Python.PrimeiroArquivo.executor": "Run",
+    "Python.Primeiros_passos.executor": "Run",
     "Python.Tuplas.executor": "Run",
     "Python.Variaveis_e_Listas.executor": "Run",
     "Python.arquivos.executor": "Run",
@@ -61,6 +61,7 @@
     "Python.decisao_if.executor": "Run",
     "Python.decisao_while.executor": "Run",
     "Python.encontar_e_conquistar.executor": "Run",
+    "Python.endereco.executor": "Run",
     "Python.main.executor": "Run",
     "Python.range_fnc.executor": "Run",
     "Python.tectos.executor": "Run",
@@ -71,29 +72,7 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.Primeiros_passos">
-    <configuration name="ManageUsers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Certificacao_Fiap" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dicionarios" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dicionarios/ManageUsers.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.endereco">
     <configuration name="Primeiros_passos" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Certificacao_Fiap" />
       <option name="ENV_FILES" value="" />
@@ -160,6 +139,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="endereco" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Certificacao_Fiap" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Localizacao_Python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Localizacao_Python/endereco.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="tectos" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Certificacao_Fiap" />
       <option name="ENV_FILES" value="" />
@@ -184,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.endereco" />
         <item itemvalue="Python.Primeiros_passos" />
         <item itemvalue="Python.arquivos" />
         <item itemvalue="Python.encontar_e_conquistar" />
         <item itemvalue="Python.tectos" />
-        <item itemvalue="Python.ManageUsers" />
       </list>
     </recent_temporary>
   </component>
@@ -320,7 +321,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738525385921</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="#Feature: Integrando API do geocoding Nominatim">
+      <option name="closed" value="true" />
+      <created>1738530529960</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1738530529960</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -348,7 +357,8 @@
     <MESSAGE value="#Improvment: Usando arquivis para manipular" />
     <MESSAGE value="#Feature: Manipulacao de Strings" />
     <MESSAGE value="#Feature: Manipulando a base de dados do iris" />
-    <option name="LAST_COMMIT_MESSAGE" value="#Feature: Manipulando a base de dados do iris" />
+    <MESSAGE value="#Feature: Integrando API do geocoding Nominatim" />
+    <option name="LAST_COMMIT_MESSAGE" value="#Feature: Integrando API do geocoding Nominatim" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
