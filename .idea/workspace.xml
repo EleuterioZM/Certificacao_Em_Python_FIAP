@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03f0fc05-5fb0-495e-9efe-04835ca14be6" name="Changes" comment="#Feature: Tuplas">
-      <change afterPath="$PROJECT_DIR$/Manipulacao_Arquivos/PrimeiroArquivo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manipulacao_Arquivos/__init__.py" afterDir="false" />
+    <list default="true" id="03f0fc05-5fb0-495e-9efe-04835ca14be6" name="Changes" comment="#Feature: Arquivo txt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dicionarios/ManageUsers.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dicionarios/ManageUsers.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +31,7 @@
 }]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "https://github.com/EleuterioZM/Certificacao_Fiap.git",
+    "url": "https://github.com/EleuterioZM/Certificacao_Em_Python_FIAP.git",
     "accountId": "29b4e5cb-1ba0-429f-87f6-9975e1769e04"
   }
 }]]></component>
@@ -68,7 +67,7 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.PrimeiroArquivo">
+  <component name="RunManager" selected="Python.ManageUsers">
     <configuration name="Dicionario_Exemplo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Certificacao_Fiap" />
       <option name="ENV_FILES" value="" />
@@ -181,9 +180,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ManageUsers" />
         <item itemvalue="Python.PrimeiroArquivo" />
         <item itemvalue="Python.Tuplas" />
-        <item itemvalue="Python.ManageUsers" />
         <item itemvalue="Python.Dicionario_Exemplo" />
         <item itemvalue="Python.ModuloPrincipal" />
       </list>
@@ -277,7 +276,23 @@
       <option name="project" value="LOCAL" />
       <updated>1738517901990</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="#Feature: Arquivos de texto in py">
+      <option name="closed" value="true" />
+      <created>1738519350930</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1738519350930</updated>
+    </task>
+    <task id="LOCAL-00011" summary="#Feature: Arquivo txt">
+      <option name="closed" value="true" />
+      <created>1738519439424</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1738519439424</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -300,7 +315,9 @@
     <MESSAGE value="#Feature: Funcoes" />
     <MESSAGE value="#Feature: Dicionarios" />
     <MESSAGE value="#Feature: Tuplas" />
-    <option name="LAST_COMMIT_MESSAGE" value="#Feature: Tuplas" />
+    <MESSAGE value="#Feature: Arquivos de texto in py" />
+    <MESSAGE value="#Feature: Arquivo txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="#Feature: Arquivo txt" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

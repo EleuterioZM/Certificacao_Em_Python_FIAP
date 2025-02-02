@@ -1,3 +1,5 @@
+import json
+
 usuarios = {}
 
 while True:
@@ -7,6 +9,7 @@ while True:
         "2 - Buscar um Usuario\n"
         "3 - Excluir um Usuario\n"
         "4 - Listar Usuarios\n"
+        "5 - Salvar Usuario\n"
         "0 - Sair\n"
 
     ).upper()
@@ -32,16 +35,23 @@ while True:
         if chaves in usuarios:
             del usuarios[chaves]
             print("Usuário excluído com sucesso!")
+
         else:
             print("Usuário não encontrado.")
 
+
     elif opcao == "4":
-        if usuarios:
-            print("Lista de Usuários:")
-            for login, dados in usuarios.items():
-                print(f"Login: {login}, Dados: {dados}")
-        else:
-            print("Nenhum usuário cadastrado.")
+        # Reading from the file
+        with open("Savalvar_Usuario.json", "r") as arquivo:
+            conteudo = arquivo.read()
+            print("Conteúdo do arquivo:")
+            print(conteudo)
+
+    elif opcao == "5":
+        with open ("Savalvar_Usuario.json", "a") as arquivo :
+            json.dump(usuarios, arquivo)
+            print("Usuários salvos com sucesso!")
+
 
     elif opcao == "0":
         print("Saindo do sistema...")
