@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03f0fc05-5fb0-495e-9efe-04835ca14be6" name="Changes" comment="#Feature: Estrutura de repeicao usando range">
-      <change afterPath="$PROJECT_DIR$/cap3-Listas_Funcoes/Insercao_e_Busca_de_dados.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cap3-Listas_Funcoes/MultiplasListas_e_Indice.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cap3-Listas_Funcoes/Variaveis_e_Listas.py" afterDir="false" />
+    <list default="true" id="03f0fc05-5fb0-495e-9efe-04835ca14be6" name="Changes" comment="#Feature: Listas in py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cap3-Listas_Funcoes/ListasDentro_de_Listas.py" beforeDir="false" afterPath="$PROJECT_DIR$/cap3-Listas_Funcoes/ListasDentro_de_Listas.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +47,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.Insercao_e_Busca_de_dados.executor": "Run",
+    "Python.ListasDentro_de_Listas.executor": "Run",
     "Python.MultiplasListas_e_Indice.executor": "Run",
     "Python.Variaveis_e_Listas.executor": "Run",
     "Python.decisao_for.executor": "Run",
@@ -62,7 +61,7 @@
     "ignore.virus.scanning.warn.message": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.Insercao_e_Busca_de_dados">
+  <component name="RunManager" selected="Python.ListasDentro_de_Listas">
     <configuration name="Insercao_e_Busca_de_dados" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Certificacao_Fiap" />
       <option name="ENV_FILES" value="" />
@@ -77,6 +76,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cap3-Listas_Funcoes/Insercao_e_Busca_de_dados.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ListasDentro_de_Listas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Certificacao_Fiap" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cap3-Listas_Funcoes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cap3-Listas_Funcoes/ListasDentro_de_Listas.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,35 +172,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="range_fnc" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Certificacao_Fiap" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/range_fnc.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ListasDentro_de_Listas" />
         <item itemvalue="Python.Insercao_e_Busca_de_dados" />
         <item itemvalue="Python.MultiplasListas_e_Indice" />
         <item itemvalue="Python.Variaveis_e_Listas" />
         <item itemvalue="Python.decisao_for" />
-        <item itemvalue="Python.range_fnc" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +230,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738496085334</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="#Feature: Listas in py">
+      <option name="closed" value="true" />
+      <created>1738498919287</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1738498919287</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -249,7 +256,8 @@
     <MESSAGE value="#First commit" />
     <MESSAGE value="#Feature: Estrutura de decisao" />
     <MESSAGE value="#Feature: Estrutura de repeicao usando range" />
-    <option name="LAST_COMMIT_MESSAGE" value="#Feature: Estrutura de repeicao usando range" />
+    <MESSAGE value="#Feature: Listas in py" />
+    <option name="LAST_COMMIT_MESSAGE" value="#Feature: Listas in py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
