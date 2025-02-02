@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03f0fc05-5fb0-495e-9efe-04835ca14be6" name="Changes" comment="#Feature: Manipulacao de Strings">
-      <change afterPath="$PROJECT_DIR$/Manipulacao_Arquivos/arquivos.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manipulacao_Arquivos/encontar_e_conquistar.py" afterDir="false" />
+    <list default="true" id="03f0fc05-5fb0-495e-9efe-04835ca14be6" name="Changes" comment="#Feature: Manipulando a base de dados do iris">
+      <change afterPath="$PROJECT_DIR$/Localizacao_Python/Primeiros_passos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Localizacao_Python/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +71,7 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.arquivos">
+  <component name="RunManager" selected="Python.Primeiros_passos">
     <configuration name="ManageUsers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Certificacao_Fiap" />
       <option name="ENV_FILES" value="" />
@@ -94,7 +94,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="PrimeiroArquivo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Primeiros_passos" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Certificacao_Fiap" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -103,11 +103,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Manipulacao_Arquivos" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Localizacao_Python" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Manipulacao_Arquivos/PrimeiroArquivo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Localizacao_Python/Primeiros_passos.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -184,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Primeiros_passos" />
         <item itemvalue="Python.arquivos" />
         <item itemvalue="Python.encontar_e_conquistar" />
         <item itemvalue="Python.tectos" />
         <item itemvalue="Python.ManageUsers" />
-        <item itemvalue="Python.PrimeiroArquivo" />
       </list>
     </recent_temporary>
   </component>
@@ -312,7 +312,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738522228511</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="#Feature: Manipulando a base de dados do iris">
+      <option name="closed" value="true" />
+      <created>1738525385921</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1738525385921</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -339,7 +347,8 @@
     <MESSAGE value="#Feature: Arquivo txt" />
     <MESSAGE value="#Improvment: Usando arquivis para manipular" />
     <MESSAGE value="#Feature: Manipulacao de Strings" />
-    <option name="LAST_COMMIT_MESSAGE" value="#Feature: Manipulacao de Strings" />
+    <MESSAGE value="#Feature: Manipulando a base de dados do iris" />
+    <option name="LAST_COMMIT_MESSAGE" value="#Feature: Manipulando a base de dados do iris" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
