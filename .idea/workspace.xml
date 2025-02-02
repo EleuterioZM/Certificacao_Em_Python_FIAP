@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03f0fc05-5fb0-495e-9efe-04835ca14be6" name="Changes" comment="#Improvment:  API do LocationIQ para geocodificar endereços">
-      <change afterPath="$PROJECT_DIR$/Sistema Operacional/SO_Teste.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sistema Operacional/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="03f0fc05-5fb0-495e-9efe-04835ca14be6" name="Changes" comment="#Feature: Interagindo com o SO" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +67,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>
   <component name="RunManager" selected="Python.SO_Teste">
@@ -339,7 +335,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738534659625</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="#Feature: Interagindo com o SO">
+      <option name="closed" value="true" />
+      <created>1738535826583</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1738535826583</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -369,7 +373,8 @@
     <MESSAGE value="#Feature: Manipulando a base de dados do iris" />
     <MESSAGE value="#Feature: Integrando API do geocoding Nominatim" />
     <MESSAGE value="#Improvment:  API do LocationIQ para geocodificar endereços" />
-    <option name="LAST_COMMIT_MESSAGE" value="#Improvment:  API do LocationIQ para geocodificar endereços" />
+    <MESSAGE value="#Feature: Interagindo com o SO" />
+    <option name="LAST_COMMIT_MESSAGE" value="#Feature: Interagindo com o SO" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
