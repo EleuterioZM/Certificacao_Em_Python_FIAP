@@ -1,0 +1,3 @@
+Este e o primeiro arquivo.
+Estou aprendendo a manipular arquivos em Python.
+Adicionando mais uma linha ao arquivo.
