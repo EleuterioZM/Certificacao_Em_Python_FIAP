@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03f0fc05-5fb0-495e-9efe-04835ca14be6" name="Changes" comment="#Feature: Arq cliente servidor UDP">
-      <change afterPath="$PROJECT_DIR$/FTP/Primeiro_FTP.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FTP/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FTP/ftp_cliente.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="03f0fc05-5fb0-495e-9efe-04835ca14be6" name="Changes" comment="#Feature: Protocolos de comunicacao" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -380,7 +375,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738575887098</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="#Feature: Protocolos de comunicacao">
+      <option name="closed" value="true" />
+      <created>1738577416713</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1738577416713</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -414,7 +417,8 @@
     <MESSAGE value="#Feature: Introducao ao Socket" />
     <MESSAGE value="#Feature: Arq cliente servidor" />
     <MESSAGE value="#Feature: Arq cliente servidor UDP" />
-    <option name="LAST_COMMIT_MESSAGE" value="#Feature: Arq cliente servidor UDP" />
+    <MESSAGE value="#Feature: Protocolos de comunicacao" />
+    <option name="LAST_COMMIT_MESSAGE" value="#Feature: Protocolos de comunicacao" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
