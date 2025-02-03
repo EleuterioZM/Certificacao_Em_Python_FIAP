@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03f0fc05-5fb0-495e-9efe-04835ca14be6" name="Changes" comment="#Feature: Interagindo com o SO">
-      <change afterPath="$PROJECT_DIR$/Socker/Primeiro_Socket.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Socker/__init__.py" afterDir="false" />
+    <list default="true" id="03f0fc05-5fb0-495e-9efe-04835ca14be6" name="Changes" comment="#Feature: Introducao ao Socket">
+      <change afterPath="$PROJECT_DIR$/Socker/Cliente.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Socker/Servidor.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +47,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Cliente.executor": "Run",
     "Python.Dicionario_Exemplo.executor": "Run",
     "Python.Insercao_e_Busca_de_dados.executor": "Run",
     "Python.ListasDentro_de_Listas.executor": "Run",
@@ -54,8 +55,10 @@
     "Python.ModuloPrincipal.executor": "Run",
     "Python.MultiplasListas_e_Indice.executor": "Run",
     "Python.PrimeiroArquivo.executor": "Run",
+    "Python.Primeiro_Socket.executor": "Run",
     "Python.Primeiros_passos.executor": "Run",
     "Python.SO_Teste.executor": "Run",
+    "Python.Servidor.executor": "Run",
     "Python.Tuplas.executor": "Run",
     "Python.Variaveis_e_Listas.executor": "Run",
     "Python.arquivos.executor": "Run",
@@ -75,7 +78,29 @@
     "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.Primeiro_Socket">
+  <component name="RunManager" selected="Python.Cliente">
+    <configuration name="Cliente" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Certificacao_Fiap" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Socker" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Socker/Cliente.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Primeiro_Socket" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Certificacao_Fiap" />
       <option name="ENV_FILES" value="" />
@@ -90,28 +115,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Socker/Primeiro_Socket.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Primeiros_passos" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Certificacao_Fiap" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Localizacao_Python" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Localizacao_Python/Primeiros_passos.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -142,7 +145,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="arquivos" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Servidor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Certificacao_Fiap" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -151,11 +154,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Manipulacao_Arquivos" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Socker" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Manipulacao_Arquivos/arquivos.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Socker/Servidor.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -188,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Cliente" />
+        <item itemvalue="Python.Servidor" />
         <item itemvalue="Python.Primeiro_Socket" />
         <item itemvalue="Python.SO_Teste" />
         <item itemvalue="Python.endereco" />
-        <item itemvalue="Python.Primeiros_passos" />
-        <item itemvalue="Python.arquivos" />
       </list>
     </recent_temporary>
   </component>
@@ -348,7 +351,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738535826583</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="#Feature: Introducao ao Socket">
+      <option name="closed" value="true" />
+      <created>1738573960859</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1738573960859</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -379,7 +390,8 @@
     <MESSAGE value="#Feature: Integrando API do geocoding Nominatim" />
     <MESSAGE value="#Improvment:  API do LocationIQ para geocodificar endereços" />
     <MESSAGE value="#Feature: Interagindo com o SO" />
-    <option name="LAST_COMMIT_MESSAGE" value="#Feature: Interagindo com o SO" />
+    <MESSAGE value="#Feature: Introducao ao Socket" />
+    <option name="LAST_COMMIT_MESSAGE" value="#Feature: Introducao ao Socket" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
